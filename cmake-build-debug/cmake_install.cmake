@@ -1,4 +1,4 @@
-# Install script for directory: /Users/neilbragsguzman/Documents/GitHub/cFundamentals/physics-engine
+# Install script for directory: /Users/neilbragsguzman/Documents/GitHub/physics-engine
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/neilbragsguzman/Documents/GitHub/cFundamentals/physics-engine/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/neilbragsguzman/Documents/GitHub/physics-engine/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
