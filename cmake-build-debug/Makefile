@@ -128,6 +128,30 @@ physics_engine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\physics_engine.dir\build.make CMakeFiles/physics_engine.dir/build
 .PHONY : physics_engine/fast
 
+headers/DebugCheckers.obj: headers/DebugCheckers.cpp.obj
+.PHONY : headers/DebugCheckers.obj
+
+# target to build an object file
+headers/DebugCheckers.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\physics_engine.dir\build.make CMakeFiles/physics_engine.dir/headers/DebugCheckers.cpp.obj
+.PHONY : headers/DebugCheckers.cpp.obj
+
+headers/DebugCheckers.i: headers/DebugCheckers.cpp.i
+.PHONY : headers/DebugCheckers.i
+
+# target to preprocess a source file
+headers/DebugCheckers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\physics_engine.dir\build.make CMakeFiles/physics_engine.dir/headers/DebugCheckers.cpp.i
+.PHONY : headers/DebugCheckers.cpp.i
+
+headers/DebugCheckers.s: headers/DebugCheckers.cpp.s
+.PHONY : headers/DebugCheckers.s
+
+# target to generate assembly for a file
+headers/DebugCheckers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\physics_engine.dir\build.make CMakeFiles/physics_engine.dir/headers/DebugCheckers.cpp.s
+.PHONY : headers/DebugCheckers.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... physics_engine
+	@echo ... headers/DebugCheckers.obj
+	@echo ... headers/DebugCheckers.i
+	@echo ... headers/DebugCheckers.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/physics_engine.dir/headers/DebugCheckers.cpp.obj"
+  "CMakeFiles/physics_engine.dir/headers/DebugCheckers.cpp.obj.d"
   "CMakeFiles/physics_engine.dir/main.cpp.obj"
   "CMakeFiles/physics_engine.dir/main.cpp.obj.d"
   "libphysics_engine.dll.a"

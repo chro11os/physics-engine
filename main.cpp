@@ -1,16 +1,19 @@
 #include <iostream>
 #include <raylib.h>
+#include "camera.h"
+#include "DebugCheckers.h"
+
 int main () {
-    int screenWidth = 980;
-    int screenHeight = 680;
-    InitWindow(screenWidth, screenHeight, "Window");
+    int constexpr ScreenWidth = 980;
+    int constexpr ScreenHeight = 680;
+    InitWindow(ScreenWidth, ScreenHeight, "Window");
     SetTargetFPS(60);
 
     while (!WindowShouldClose()) {
+        isWindowsActive();
         BeginDrawing();
-        DrawFPS(screenWidth/2, screenHeight/2 );
+        DrawFPS(ScreenWidth/2, ScreenHeight/2 );
         ClearBackground(BLACK);
-
         EndDrawing();
     }
     CloseWindow();

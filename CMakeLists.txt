@@ -6,11 +6,14 @@ set(CMAKE_CXX_STANDARD 17)
 # Add the executable
 add_executable(${PROJECT_NAME}
         main.cpp
+        headers/DebugCheckers.h
+        headers/DebugCheckers.cpp
 )
 
 # Add your custom include dir (headers)
 target_include_directories(${PROJECT_NAME} PRIVATE
         ${PROJECT_SOURCE_DIR}/lib
+        ${PROJECT_SOURCE_DIR}/headers
 )
 
 # Link raylib static lib and system libs (Windows-style)

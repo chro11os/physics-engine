@@ -1,5 +1,6 @@
-CMakeFiles/physics_engine.dir/main.cpp.obj: \
- C:\Users\neilb\Documents\GitHub\physics-engine\main.cpp \
+CMakeFiles/physics_engine.dir/headers/DebugCheckers.cpp.obj: \
+ C:\Users\neilb\Documents\GitHub\physics-engine\headers\DebugCheckers.cpp \
+ C:\Users\neilb\Documents\GitHub\physics-engine\headers\DebugCheckers.h \
  C:/Program\ Files/JetBrains/CLion\ 2025.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  C:/Program\ Files/JetBrains/CLion\ 2025.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Program\ Files/JetBrains/CLion\ 2025.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -145,6 +146,4 @@ CMakeFiles/physics_engine.dir/main.cpp.obj: \
  C:/Users/neilb/Documents/GitHub/physics-engine/lib/raylib.h \
  C:/Program\ Files/JetBrains/CLion\ 2025.1.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdarg.h \
  C:/Program\ Files/JetBrains/CLion\ 2025.1.1/bin/mingw/x86_64-w64-mingw32/include/stdarg.h \
- C:/Program\ Files/JetBrains/CLion\ 2025.1.1/bin/mingw/x86_64-w64-mingw32/include/_mingw_stdarg.h \
- C:/Users/neilb/Documents/GitHub/physics-engine/headers/camera.h \
- C:/Users/neilb/Documents/GitHub/physics-engine/headers/DebugCheckers.h
+ C:/Program\ Files/JetBrains/CLion\ 2025.1.1/bin/mingw/x86_64-w64-mingw32/include/_mingw_stdarg.h
