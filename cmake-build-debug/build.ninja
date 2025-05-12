@@ -52,9 +52,16 @@ build cmake_object_order_depends_target_physics_engine: phony || CMakeFiles/phys
 build CMakeFiles/physics_engine.dir/main.cpp.o: CXX_COMPILER__physics_engine_unscanned_Debug /Users/neilbragsguzman/Documents/GitHub/physics-engine/main.cpp || cmake_object_order_depends_target_physics_engine
   DEP_FILE = CMakeFiles/physics_engine.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/neilbragsguzman/raylib/build/raylib/include
+  INCLUDES = -I/Users/neilbragsguzman/raylib/build/raylib/include -I/Users/neilbragsguzman/Documents/GitHub/physics-engine/headers
   OBJECT_DIR = CMakeFiles/physics_engine.dir
   OBJECT_FILE_DIR = CMakeFiles/physics_engine.dir
+
+build CMakeFiles/physics_engine.dir/headers/camera.cpp.o: CXX_COMPILER__physics_engine_unscanned_Debug /Users/neilbragsguzman/Documents/GitHub/physics-engine/headers/camera.cpp || cmake_object_order_depends_target_physics_engine
+  DEP_FILE = CMakeFiles/physics_engine.dir/headers/camera.cpp.o.d
+  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/neilbragsguzman/raylib/build/raylib/include -I/Users/neilbragsguzman/Documents/GitHub/physics-engine/headers
+  OBJECT_DIR = CMakeFiles/physics_engine.dir
+  OBJECT_FILE_DIR = CMakeFiles/physics_engine.dir/headers
 
 
 # =============================================================================
@@ -64,7 +71,7 @@ build CMakeFiles/physics_engine.dir/main.cpp.o: CXX_COMPILER__physics_engine_uns
 #############################################
 # Link the executable physics_engine
 
-build physics_engine: CXX_EXECUTABLE_LINKER__physics_engine_Debug CMakeFiles/physics_engine.dir/main.cpp.o | /Users/neilbragsguzman/raylib/build/raylib/libraylib.a
+build physics_engine: CXX_EXECUTABLE_LINKER__physics_engine_Debug CMakeFiles/physics_engine.dir/main.cpp.o CMakeFiles/physics_engine.dir/headers/camera.cpp.o | /Users/neilbragsguzman/raylib/build/raylib/libraylib.a
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk
   LINK_LIBRARIES = /Users/neilbragsguzman/raylib/build/raylib/libraylib.a  -framework OpenGL  -framework Cocoa  -framework IOKit  -framework CoreVideo
   OBJECT_DIR = CMakeFiles/physics_engine.dir

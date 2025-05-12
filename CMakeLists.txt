@@ -9,9 +9,12 @@ set(RAYLIB_LIB_DIR "/Users/neilbragsguzman/raylib/build/raylib")
 
 # Tell CMake where to find headers
 include_directories(${RAYLIB_INCLUDE_DIR})
+include_directories("/Users/neilbragsguzman/Documents/GitHub/physics-engine/headers")
 
 # Add the executable
-add_executable(physics_engine main.cpp)
+add_executable(physics_engine main.cpp
+        headers/camera.h
+        headers/camera.cpp)
 
 # Link the static library and necessary frameworks
 target_link_libraries(physics_engine

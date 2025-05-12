@@ -1,0 +1,5 @@
+# ninja log v6
+1	51	1746979967016255423	build.ninja	cd6910d989b66db3
+4	238	1746979959838094457	CMakeFiles/physics_engine.dir/main.cpp.o	36ea9c518f77cf9f
+238	329	1746979960072571436	physics_engine	802cd72357eaf802
+3	38	1746979915486008636	CMakeFiles/physics_engine.dir/headers/camera.cpp.o	f236e5c6ad90bfdb
