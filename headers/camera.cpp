@@ -3,7 +3,7 @@
 //
 #include "camera.h"
 
-Camera CreateDefaultCamera() {
+Camera3D CreateDefaultCamera() {
     Camera camera = { 0 };
     camera.position = (Vector3){ 0.0f, 10.0f, 10.0f };
     camera.target = (Vector3){ 0.0f, 0.0f, 0.0f };

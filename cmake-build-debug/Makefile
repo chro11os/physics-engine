@@ -152,6 +152,30 @@ headers/DebugCheckers.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\physics_engine.dir\build.make CMakeFiles/physics_engine.dir/headers/DebugCheckers.cpp.s
 .PHONY : headers/DebugCheckers.cpp.s
 
+headers/camera.obj: headers/camera.cpp.obj
+.PHONY : headers/camera.obj
+
+# target to build an object file
+headers/camera.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\physics_engine.dir\build.make CMakeFiles/physics_engine.dir/headers/camera.cpp.obj
+.PHONY : headers/camera.cpp.obj
+
+headers/camera.i: headers/camera.cpp.i
+.PHONY : headers/camera.i
+
+# target to preprocess a source file
+headers/camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\physics_engine.dir\build.make CMakeFiles/physics_engine.dir/headers/camera.cpp.i
+.PHONY : headers/camera.cpp.i
+
+headers/camera.s: headers/camera.cpp.s
+.PHONY : headers/camera.s
+
+# target to generate assembly for a file
+headers/camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\physics_engine.dir\build.make CMakeFiles/physics_engine.dir/headers/camera.cpp.s
+.PHONY : headers/camera.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -188,6 +212,9 @@ help:
 	@echo ... headers/DebugCheckers.obj
 	@echo ... headers/DebugCheckers.i
 	@echo ... headers/DebugCheckers.s
+	@echo ... headers/camera.obj
+	@echo ... headers/camera.i
+	@echo ... headers/camera.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

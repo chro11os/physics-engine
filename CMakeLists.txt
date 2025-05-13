@@ -8,6 +8,8 @@ add_executable(${PROJECT_NAME}
         main.cpp
         headers/DebugCheckers.h
         headers/DebugCheckers.cpp
+        headers/camera.cpp
+        headers/camera.h
 )
 
 # Add your custom include dir (headers)

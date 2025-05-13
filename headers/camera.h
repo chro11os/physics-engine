@@ -4,6 +4,6 @@
 #include "raylib.h"
 
 // Function to create and return a default Camera
-Camera CreateDefaultCamera();
+Camera3D CreateDefaultCamera();
 
 #endif
