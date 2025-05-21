@@ -12,6 +12,7 @@ int main () {
     SetTargetFPS(60);
 
     while (!WindowShouldClose()) {
+        MaximizeWindow();
         isWindowsActive();
 
         BeginDrawing();

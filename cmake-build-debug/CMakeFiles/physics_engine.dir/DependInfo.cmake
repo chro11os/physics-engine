@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/neilb/Documents/GitHub/physics-engine/headers/DebugCheckers.cpp" "CMakeFiles/physics_engine.dir/headers/DebugCheckers.cpp.obj" "gcc" "CMakeFiles/physics_engine.dir/headers/DebugCheckers.cpp.obj.d"
-  "C:/Users/neilb/Documents/GitHub/physics-engine/headers/camera.cpp" "CMakeFiles/physics_engine.dir/headers/camera.cpp.obj" "gcc" "CMakeFiles/physics_engine.dir/headers/camera.cpp.obj.d"
-  "C:/Users/neilb/Documents/GitHub/physics-engine/main.cpp" "CMakeFiles/physics_engine.dir/main.cpp.obj" "gcc" "CMakeFiles/physics_engine.dir/main.cpp.obj.d"
+  "/Users/neilbragsguzman/Documents/GitHub/physics-engine/headers/DebugCheckers.cpp" "CMakeFiles/physics_engine.dir/headers/DebugCheckers.cpp.o" "gcc" "CMakeFiles/physics_engine.dir/headers/DebugCheckers.cpp.o.d"
+  "/Users/neilbragsguzman/Documents/GitHub/physics-engine/headers/camera.cpp" "CMakeFiles/physics_engine.dir/headers/camera.cpp.o" "gcc" "CMakeFiles/physics_engine.dir/headers/camera.cpp.o.d"
+  "/Users/neilbragsguzman/Documents/GitHub/physics-engine/main.cpp" "CMakeFiles/physics_engine.dir/main.cpp.o" "gcc" "CMakeFiles/physics_engine.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

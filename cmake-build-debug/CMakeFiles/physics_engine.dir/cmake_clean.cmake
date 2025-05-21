@@ -1,13 +1,11 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/physics_engine.dir/headers/DebugCheckers.cpp.obj"
-  "CMakeFiles/physics_engine.dir/headers/DebugCheckers.cpp.obj.d"
-  "CMakeFiles/physics_engine.dir/headers/camera.cpp.obj"
-  "CMakeFiles/physics_engine.dir/headers/camera.cpp.obj.d"
-  "CMakeFiles/physics_engine.dir/main.cpp.obj"
-  "CMakeFiles/physics_engine.dir/main.cpp.obj.d"
-  "libphysics_engine.dll.a"
-  "physics_engine.exe"
-  "physics_engine.exe.manifest"
+  "CMakeFiles/physics_engine.dir/headers/DebugCheckers.cpp.o"
+  "CMakeFiles/physics_engine.dir/headers/DebugCheckers.cpp.o.d"
+  "CMakeFiles/physics_engine.dir/headers/camera.cpp.o"
+  "CMakeFiles/physics_engine.dir/headers/camera.cpp.o.d"
+  "CMakeFiles/physics_engine.dir/main.cpp.o"
+  "CMakeFiles/physics_engine.dir/main.cpp.o.d"
+  "physics_engine"
   "physics_engine.pdb"
 )
 

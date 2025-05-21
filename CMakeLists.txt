@@ -21,7 +21,8 @@ target_include_directories(${PROJECT_NAME} PRIVATE
 # Link raylib static lib and system libs (Windows-style)
 target_link_libraries(${PROJECT_NAME}
         ${PROJECT_SOURCE_DIR}/lib/libraylib.a
-        winmm
-        gdi32
-        opengl32
+        "-framework OpenGL"
+        "-framework Cocoa"
+        "-framework IOKit"
+        "-framework CoreVideo"
 )
